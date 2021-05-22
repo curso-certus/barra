@@ -1,0 +1,21 @@
+body {
+  background-color: cyan;
+}
+h1 {
+  margin: auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.1cm;
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid rgb(197, 50, 50);
+  /*Centrado de la figura*/
+  margin: auto;
+  /*Voltear la figura*/
+  border-top: 100px solid #000;
+}
